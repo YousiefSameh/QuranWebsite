@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+}
+
+body {
+  background: rgb(15,36,0);
+  background: linear-gradient(90deg, rgba(15,36,0,1) 0%, rgba(53,215,20,1) 0%, rgba(24,135,26,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+main table {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+main table tr {
+  display: flex;
+  width: 100%;
+}
+
+main table td {
+  display: block;
+  background: rgb(15,36,0);
+  background: linear-gradient(90deg, rgba(15,36,0,1) 0%, rgba(53,215,20,1) 0%, rgba(24,135,26,1) 100%, rgba(0,212,255,1) 100%);
+  box-shadow: 0 0 10px 2px rgb(0 0 0 / 0.5);
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+}
+
+main tfoot td {
+  width: 33.3333333333%;
+}
+
+main table td h2 {
+  font-size: 20px;
+}
+
+footer {
+  margin: 30px 0;
+}
